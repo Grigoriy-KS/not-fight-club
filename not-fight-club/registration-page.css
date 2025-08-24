@@ -25,3 +25,20 @@
 .character-name__label {
     font-size: 1.25rem;
 }
+
+.character-name__input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.0625rem solid #000000;
+    outline: none;
+}
+
+.character-name__input:focus {
+    border: 0.0625rem solid #0000ff;
+}
+
+.registration-form__submit-button {
+    padding: 0.5rem;
+    border-radius: 9999rem;
+    border: 0.0625rem solid #000000;
+}
