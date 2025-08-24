@@ -4,7 +4,7 @@ let characterName = '';
 
 if (registrationForm) {
   submitButton.addEventListener('click', (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     characterName = registrationForm['character-name']?.value;
     if (characterName) {
       window.localStorage.setItem('characterName', characterName);
