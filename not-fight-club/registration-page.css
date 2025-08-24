@@ -42,3 +42,7 @@
     border-radius: 9999rem;
     border: 0.0625rem solid #000000;
 }
+
+.registration-page_hidden {
+    display: none;
+}
