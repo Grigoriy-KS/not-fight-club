@@ -14,3 +14,52 @@ body {
     margin: 0 auto;
     padding: 1.25rem;
 }
+
+/*main page*/
+
+.home-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    border-bottom: 0.0625rem solid #000;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation__list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.main {
+    height: 100%;
+}
+
+.main-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    border-top: 0.0625rem solid #000;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

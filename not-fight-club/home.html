@@ -13,28 +13,34 @@
 </head>
 <body>
   <div class="home-page">
-    <header>
+    <header class="header">
       <div class="container">
         <div class="header-content">
           <div class="header-content__page-name">Main</div>
           <nav class="navigation">
-            <ul class="navigation__list">
-              <li><a href="home.html">Home</a></li>
-              <li><a href="character.html">Character</a></li>
-              <li><a href="setting.html">Setting</a></li>
+            <ul role="list" class="navigation__list">
+              <li class="navigation__list-item"><a href="home.html">Home</a></li>
+              <li class="navigation__list-item"><a href="character.html">Character</a></li>
+              <li class="navigation__list-item"><a href="setting.html">Setting</a></li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
-    <main>
+    <main class="main">
       <div class="container">
-
+        <div class="main-content">
+          <button class="main__to-battle-button" id="to-battle-button">Fight!</button>
+        </div>
       </div>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
-
+        <div class="footer-content">
+          <span>© 2025</span>
+          <a class="rsschool-course-link" href="https://rs.school/courses/javascript-preschool-ru">The Rolling Scopes School</a>
+          <a class="my-github-link" href="https://github.com/Grigoriy-KS">Grigoriy-KS</a>
+        </div>
       </div>
     </footer>
   </div>
